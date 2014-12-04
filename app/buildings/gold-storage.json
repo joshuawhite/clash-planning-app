@@ -1,0 +1,33 @@
+{
+	"id": "gold-storage",
+	"name": "Gold Storage",
+	"resource": "elixir",
+
+	"levels": [
+		{"level": 1, "townHallRequired": 1, "cost": 300, "time": 0.0007},
+		{"level": 2, "townHallRequired": 2, "cost": 750, "time": 0.0208},
+		{"level": 3, "townHallRequired": 2, "cost": 1500, "time": 0.0417},
+		{"level": 4, "townHallRequired": 3, "cost": 3000, "time": 0.0833},
+		{"level": 5, "townHallRequired": 3, "cost": 6000, "time": 0.125},
+		{"level": 6, "townHallRequired": 3, "cost": 12000, "time": 0.1667},
+		{"level": 7, "townHallRequired": 4, "cost": 25000, "time": 0.25},
+		{"level": 8, "townHallRequired": 4, "cost": 50000, "time": 0.3333},
+		{"level": 9, "townHallRequired": 5, "cost": 100000, "time": 0.5},
+		{"level": 10, "townHallRequired": 6, "cost": 250000, "time": 1},
+		{"level": 11, "townHallRequired": 7, "cost": 500000, "time": 2}
+	],
+
+	"availability": [
+		{"townHall": 1, "quantity": 1},
+		{"townHall": 2, "quantity": 1},
+		{"townHall": 3, "quantity": 2},
+		{"townHall": 4, "quantity": 2},
+		{"townHall": 5, "quantity": 2},
+		{"townHall": 6, "quantity": 2},
+		{"townHall": 7, "quantity": 2},
+		{"townHall": 8, "quantity": 3},
+		{"townHall": 9, "quantity": 4},
+		{"townHall": 10, "quantity": 4}
+	]
+
+}

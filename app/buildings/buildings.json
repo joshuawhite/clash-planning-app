@@ -1,0 +1,19 @@
+[
+	{"resource": "gold", "buildings": 
+		[
+			{"id": "cannon"},
+			{"id": "archer-tower"},
+			{"id": "elixir-collector"},
+			{"id": "elixir-storage"},
+			{"id": "town-hall"}
+		]
+	},
+	{"resource": "elixir", "buildings":
+		[
+			{"id": "army-camp"},
+			{"id": "barracks"},
+			{"id": "gold-mine"},
+			{"id": "gold-storage"}
+		]
+	}
+]

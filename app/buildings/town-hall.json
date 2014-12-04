@@ -1,0 +1,32 @@
+{
+	"id": "town-hall",
+	"name": "Town Hall",
+	"resource": "gold",
+
+	"levels": [
+		{"level": 1, "townHallRequired": 0, "cost": 0, "time": 0},
+		{"level": 2, "townHallRequired": 1, "cost": 1000, "time": 0.0007},
+		{"level": 3, "townHallRequired": 2, "cost": 4000, "time": 0.125},
+		{"level": 4, "townHallRequired": 3, "cost": 25000, "time": 1},
+		{"level": 5, "townHallRequired": 4, "cost": 150000, "time": 2},
+		{"level": 6, "townHallRequired": 5, "cost": 750000, "time": 4},
+		{"level": 7, "townHallRequired": 6, "cost": 1200000, "time": 6},
+		{"level": 8, "townHallRequired": 7, "cost": 2000000, "time": 8},
+		{"level": 9, "townHallRequired": 8, "cost": 3000000, "time": 10},
+		{"level": 10, "townHallRequired": 9, "cost": 4000000, "time": 14}
+	],
+
+	"availability": [
+		{"townHall": 1, "quantity": 1},
+		{"townHall": 2, "quantity": 1},
+		{"townHall": 3, "quantity": 1},
+		{"townHall": 4, "quantity": 1},
+		{"townHall": 5, "quantity": 1},
+		{"townHall": 6, "quantity": 1},
+		{"townHall": 7, "quantity": 1},
+		{"townHall": 8, "quantity": 1},
+		{"townHall": 9, "quantity": 1},
+		{"townHall": 10, "quantity": 1}
+	]
+
+}

@@ -1,0 +1,41 @@
+<div class="container">
+<h3>{{title}}</h3>
+
+<p>
+<table border="1">
+<tr>
+	<th>Building</th>
+	<th>Level</th>
+	<th>How Many?</th>
+	<th>Upgrade</th>
+	<th>Cost</th>
+	<th>Time</th>
+	<th>Cost/Time</th>
+</tr>
+
+<tr data-ng-repeat="struct in structures | orderBy:orderProp">
+	<td>{{struct.building}}</td><td align="center">{{struct.level}}</td><td align="center">{{struct.howMany}}</td><td><input type="submit" value="Upgrade to {{struct.level + 1}}" onclick="soon()"></td><td align="right">{{struct.cost | number:0}}</td><td align="right">{{struct.time}}</td><td  align="right">{{struct.cost/struct.time | number:0}}</td>
+</tr>
+
+</table>
+</p>
+
+Sort by: <select ng-model="orderProp">
+	<option value="building">Building</option>
+	<option value="level">Level</option>
+	<option value="cost">Cost</option>
+	<option value="time">Time</option>
+</select>
+
+<br /><br />
+Building: <input type="text" data-ng-model="newStruct.building"><br/>
+Level: <input type="number" data-ng-model="newStruct.level"><br/>
+How Many?: <input type="number" data-ng-model="newStruct.howMany"><br/>
+Cost: <input type="number" data-ng-model="newStruct.cost"><br/>
+Time: <input type="number" data-ng-model="newStruct.time"><br/>
+
+<button data-ng-click="addBuilding()">Add Building</button>
+
+<pre>{{buildings | json}}</pre>
+
+</div>
