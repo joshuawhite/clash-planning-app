@@ -1,0 +1,25 @@
+{
+	"id": "inferno-tower",
+	"name": "Inferno Tower",
+	"resource": "gold",
+
+	"levels": [
+		{"level": 1, "townHallRequired": 10, "cost": 5000000, "time": 7},
+		{"level": 2, "townHallRequired": 10, "cost": 6500000, "time": 10},
+		{"level": 3, "townHallRequired": 10, "cost": 8000000, "time": 14},
+	],
+
+	"availability": [
+		{"townHall": 1, "quantity": 0},
+		{"townHall": 2, "quantity": 0},
+		{"townHall": 3, "quantity": 0},
+		{"townHall": 4, "quantity": 0},
+		{"townHall": 5, "quantity": 0},
+		{"townHall": 6, "quantity": 0},
+		{"townHall": 7, "quantity": 0},
+		{"townHall": 8, "quantity": 0},
+		{"townHall": 9, "quantity": 0},
+		{"townHall": 10, "quantity": 2}
+	]
+
+}

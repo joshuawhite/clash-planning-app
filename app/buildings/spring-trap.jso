@@ -1,0 +1,23 @@
+{
+	"id": "archer-tower",
+	"name": "Archer Tower",
+	"resource": "gold",
+
+	"levels": [
+		{"level": 1, "townHallRequired": 2, "cost": 2000, "time": 0}
+	],
+
+	"availability": [
+		{"townHall": 1, "quantity": 0},
+		{"townHall": 2, "quantity": 0},
+		{"townHall": 3, "quantity": 0},
+		{"townHall": 4, "quantity": 2},
+		{"townHall": 5, "quantity": 2},
+		{"townHall": 6, "quantity": 4},
+		{"townHall": 7, "quantity": 4},
+		{"townHall": 8, "quantity": 6},
+		{"townHall": 9, "quantity": 6},
+		{"townHall": 10, "quantity": 6}
+	]
+
+}
