@@ -1,4 +1,4 @@
-CoC-Enhancement
+clash-planning-app
 ===============
 
 MEAN stack implementation of a Clash of Clans Upgrade Manager

@@ -1,19 +1,6 @@
 // Javascript file for Clash building planner
 var clashApp = angular.module('clashApp', ['ngRoute']);
 
-// Service definiton
-clashApp.service("ResourceService", function() {
-	this.addBuilding = function(structures, newStruct) {
-			structures.push(
-				{ building: newStruct.building, 
-				  level: newStruct.level, 
-				  cost: newStruct.cost, 
-				  time: newStruct.time, 
-				  howMany: newStruct.howMany }
-			);
-		};
-});
-
 // Controller definition
 var controllers = {};
 controllers.goldController =  function($scope, $http) {
